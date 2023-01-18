@@ -72,7 +72,7 @@ function draw() {
 
         var distancia = dist(x, y, width - 10 - px, cy);
         if (abs(distancia) < rango) {
-            cy = lerp(cy, y, 0.5);
+            cy = lerp(cy, y, 0.3);
         }
     } else if (estado === 1) {
         background(0);
